@@ -1,7 +1,7 @@
 ---
 # tasks file for apigee-opdk-setup-mint-mgmt-cluster
 - name: Mint configure management cluster
-  shell: "{{ apigee_service }} edge-management-server mint-configure-mgmt-cluster"
+  shell: "{{ apigee_service }} edge-mint-management-server mint-configure-mgmt-cluster"
 
 - name: Restart server
   shell: "{{ apigee_service }} edge-management-server restart"
